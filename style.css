@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(Pictures/background.jpg);
+    background-size: cover;
+}
+
+h1 {
+    margin: 0.5vh;
+    padding: 2vh;
+    color: rgb(170, 39, 61);
+    text-align: center;
+    position: relative;
+    top: 100px;
+    border-style: dashed;
+    border-color: red;
+}
+
+.title h1 {
+    margin: 2vh;
+    color: rgb(170, 39, 61);
+    text-align: center;
+    position: relative;
+    top: 5vh;
+}
+
+.b1 button {
+    background-color: rgb(250, 155, 234);
+    border: 3px solid red;
+    padding: 5vh;
+    text-align: center;
+    font-size: 5vh;
+    color: rgb(153, 18, 41);
+    position: relative;
+    top: 20vh;
+    left: 42vw;
+    border-radius: 2vw;
+
+    transition-duration: 0.3s;
+}
+
+.b2 button  {
+    background-color: rgb(247, 88, 114);
+    border: 3px solid red;
+    padding: 15px;
+    text-align: center;
+    font-size: 2vh;
+    color: rgb(179, 7, 7);
+    position: relative;
+    top: 3vh;
+    left: 41.5vw;
+    border-radius: 2vw;
+
+    transition-duration: 0.3s;
+}
+
+button:hover {
+    background-color: rgb(218, 49, 49);
+    color: white;
+}
+
+img {
+    margin: 2vh;
+    position: relative;
+    left: 40vw;
+    top: 3vh;
+}

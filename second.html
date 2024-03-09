@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title">
+        <h1>Vyn Richter and Kaeya Alberich</h1>
+    </div>
+    
+    <img id="VynPic" src="Pictures/Vyn.jpg" alt="My Favorite Men" width="250px" height="400px">
+    
+    <div class="b2">
+        <button onclick="imageswap('Pictures/Vyn.jpg')" id="b1">Previous Page</button>
+        <button onclick="imageswap('Pictures/Kaeya.jpg')" id="b2">Next Page</button>
+    </div>
+    
+    <script>
+        function imageswap(filename){
+            var img = document.querySelector("#VynPic");
+            img.setAttribute("src", filename);
+        }
+    </script>
+</body>
+</html>
